@@ -6,7 +6,6 @@ class Macrice < Formula
   homepage "https://github.com/griffinryan/macrice"
   url "https://github.com/griffinryan/macrice/archive/refs/tags/v0.4.tar.gz"
   version "v0.4"
-  sha256 "31b890767c09a1fbae9fb7caee0ceaa31adb395deb2dd38e810704f7e04fe7d2"
   license "MIT"
 
   depends_on "toilet"
