@@ -9,7 +9,6 @@ class Macrice < Formula
   sha256 "31b890767c09a1fbae9fb7caee0ceaa31adb395deb2dd38e810704f7e04fe7d2"
   license "MIT"
 
-  depends_on "cat"
   depends_on "toilet"
 
   def install
