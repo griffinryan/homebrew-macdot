@@ -4,8 +4,8 @@
 class Macrice < Formula
   desc "Macrice is a macOS CLI tool for customization."
   homepage "https://github.com/griffinryan/macrice"
-  url "https://github.com/griffinryan/macrice/archive/refs/tags/0.7.5.tar.gz"
-  version "0.7.5"
+  url "https://github.com/griffinryan/macrice/archive/refs/tags/0.8.0.tar.gz"
+  version "0.8.0"
   license "MIT"
 
   depends_on "toilet"
@@ -15,9 +15,9 @@ class Macrice < Formula
   def install
     # system "./configure", *std_configure_args, "--disable-silent-rules"
     bin.install "macrice"
-    bin.install Dir["lib"]
-    bin.install Dir["fonts"]
-    bin.install Dir["dotfiles"]
+    prefix.install Dir["lib"]
+    prefix.install Dir["fonts"]
+    prefix.install Dir["dotfiles"]
     prefix.install "README.md"
     prefix.install "LICENSE"
   end
