@@ -4,7 +4,7 @@
 class Macrice < Formula
   desc "Macrice is a macOS CLI tool for customization."
   homepage "https://github.com/griffinryan/macrice"
-  url "https://github.com/griffinryan/macrice/archive/refs/tags/0.7.0.tar.gz"
+  url "https://github.com/griffinryan/macrice/archive/refs/tags/0.7.1.tar.gz"
   version "0.7.0"
   license "MIT"
 
