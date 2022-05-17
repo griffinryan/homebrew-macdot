@@ -1,8 +1,8 @@
 class Macdot < Formula
   desc "Macdot is a macOS CLI tool for customization."
   homepage "https://github.com/griffinryan/macdot"
-  url "https://github.com/griffinryan/macdot/archive/refs/tags/0.1.5.tar.gz"
-  version "0.1.5"
+  url "https://github.com/griffinryan/macdot/archive/refs/tags/0.2.0.tar.gz"
+  version "0.2.0"
   license "MIT"
 
   depends_on "toilet"
