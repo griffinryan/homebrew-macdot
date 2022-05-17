@@ -5,6 +5,7 @@ Install [Macdot](https://github.com/griffinryan/macdot):
 ``
   brew tap griffinryan/macdot
 ``
+
 ``
   brew install macdot
 ``
