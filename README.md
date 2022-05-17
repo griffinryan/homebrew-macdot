@@ -1,5 +1,12 @@
-# Homebrew tap for [Macrice](https://github.com/griffinryan/macrice).
-Go see the [Macrice](https://github.com/griffinryan/macrice) page!
+# Homebrew tap for [Macdot](https://github.com/griffinryan/macdot).
 
-### Go see my portfolio!
+Install [Macdot](https://github.com/griffinryan/macdot):
+
+  brew tap griffinryan/macdot
+  
+  brew install macdot
+
+
+
+##### Go see my portfolio!
 [griffinryan.com](https://griffinryan.com/)
