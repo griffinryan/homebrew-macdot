@@ -1,7 +1,7 @@
-class Macrice < Formula
-  desc "Macrice is a macOS CLI tool for customization."
-  homepage "https://github.com/griffinryan/macrice"
-  url "https://github.com/griffinryan/macrice/archive/refs/tags/0.1.5.tar.gz"
+class Macdot < Formula
+  desc "Macdot is a macOS CLI tool for customization."
+  homepage "https://github.com/griffinryan/macdot"
+  url "https://github.com/griffinryan/macdot/archive/refs/tags/0.1.5.tar.gz"
   version "0.1.5"
   license "MIT"
 
@@ -11,7 +11,7 @@ class Macrice < Formula
   depends_on "fish"
 
   def install
-    bin.install "macrice"
+    bin.install "macdot"
     prefix.install Dir["lib"]
     prefix.install Dir["fonts"]
     prefix.install Dir["dotfiles"]
